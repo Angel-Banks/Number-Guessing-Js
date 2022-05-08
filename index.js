@@ -1,9 +1,11 @@
-var enterButton = document.getElementById("enterButton");
+
+
+var button = document.getElementById("button");
 var output = document.getElementById("output");
 var number = Math.floor(Math.random() * 100);
 
 
-enterButton.addEventListener('click', function() {
+button.addEventListener('click', function() {
   var input = document.getElementById("input").value;
   if (input == number) {
     output.innerHTML = " 🚩You guessed right, it was " + number;
@@ -20,6 +22,3 @@ enterButton.addEventListener('click', function() {
 
   }
 });
-
-//  }  else if (isNaN (input)) {
-//    output.innerHTML= "That's not a number!";

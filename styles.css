@@ -28,3 +28,13 @@ p {
   font-size: 2rem;
   color: #A85CF9;
 }
+
+#input {
+  height: 20px;
+  border-radius: 5%;
+}
+
+#button {
+height: 25px;
+
+}
