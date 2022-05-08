@@ -6,8 +6,8 @@ var number = Math.floor(Math.random() * 100);
 enterButton.addEventListener('click', function() {
   var input = document.getElementById("input").value;
   if (input == number) {
-    output.innerHTML = "You guessed right, it was " + number;
-    output.style.color = "green";
+    output.innerHTML = " 🚩You guessed right, it was " + number;
+    output.style.color = "#68A7AD";
 
   } else if (input > number) {
     output.innerHTML = "You guessed too high";
